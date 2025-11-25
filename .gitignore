@@ -103,3 +103,7 @@ public
 # OS
 .DS_Store
 Thumbs.db
+
+# Vibecoder
+
+.claude/
