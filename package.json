@@ -1,0 +1,60 @@
+{
+  "name": "console-helper",
+  "version": "1.0.0",
+  "description": "A powerful toolkit for creating beautiful terminal UIs with colors, borders, interactive components, animations, and more",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node examples/demo.js",
+    "example:basic": "node examples/basic.js",
+    "example:interactive": "node examples/interactive.js",
+    "example:advanced": "node examples/advanced.js",
+    "example:demo": "node examples/demo.js"
+  },
+  "keywords": [
+    "console",
+    "terminal",
+    "cli",
+    "color",
+    "colors",
+    "box",
+    "border",
+    "ui",
+    "interface",
+    "interactive",
+    "input",
+    "spinner",
+    "progress",
+    "animation",
+    "ascii",
+    "pretty",
+    "formatting",
+    "style",
+    "tty"
+  ],
+  "author": "FauZaPespi <admin@fauza.dev>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FauZaPespi/console-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FauZaPespi/console-helper/issues"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
